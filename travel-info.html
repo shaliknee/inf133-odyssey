@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odyssey - Travel Info</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2 class="text-center mt-5">Trip Information</h2>
+                <form id="travelInfoForm" class="mt-4">
+                    <div class="form-group">
+                        <label for="destination">Destination (City)</label>
+                        <input type="text" class="form-control" id="destination" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="startDate">Trip Start Date</label>
+                        <input type="date" class="form-control" id="startDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="endDate">Trip End Date</label>
+                        <input type="date" class="form-control" id="endDate" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </form>
+
+                <!-- TEMP NAV BUTTONS -->
+                <div class="text-center mt-4">
+                    <button class="btn btn-secondary" onclick="window.location.href='index.html'">Go to Home</button>
+                    <button class="btn btn-secondary" onclick="window.location.href='dashboard.html'">Go to
+                        Dashboard</button>
+                </div>
+                <!-- END OF TEMP NAV BUTTONS -->
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
