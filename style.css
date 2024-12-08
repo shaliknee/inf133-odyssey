@@ -1,0 +1,32 @@
+#weatherBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.nav-button {
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#weatherForecast {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.weatherDay {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    flex: 1;
+    /* Allow items to grow equally */
+    margin: 0 5px;
+    /* Add some spacing between items */
+}
