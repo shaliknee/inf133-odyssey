@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odyssey - Travel Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Travel Dashboard</h1>
+        <h2 id="tripInfo" class="text-center mt-3"></h2>
+        <h3 id="tripDates" class="text-center mt-1"></h3>
+        <div class="text-center mt-4">
+            <button class="btn btn-secondary" onclick="window.location.href='index.html'">Go to Home</button>
+            <button class="btn btn-secondary" onclick="window.location.href='travel-info.html'">Edit Trip Info</button>
+        </div>
+    </div>
+
+    <div id="weatherBar">
+        <button id="prevWeek" class="nav-button">◀</button>
+        <div id="weatherForecast"></div>
+        <button id="nextWeek" class="nav-button">▶</button>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+
+</html>
