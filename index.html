@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odyssey - Sign In / Sign Up</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,7 +30,9 @@
                             <label for="loginPassword">Password</label>
                             <input type="password" class="form-control" id="loginPassword" required>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block">Log In</button>
+                        <div class="form-group" style="text-align: center;">
+                        <button type="submit" class="btn-login">Log In</button>
+                        </div>
                     </form>
                 </div>
 
@@ -45,9 +50,13 @@
                             <label for="signupPassword">Password</label>
                             <input type="password" class="form-control" id="signupPassword" required>
                         </div>
-                        <button type="submit" class="btn btn-secondary btn-block">Sign Up</button>
+                        <div class="form-group" style="text-align: center;">
+                        <button type="submit" class="btn-signup">Sign Up</button>
+                        </div>
                     </form>
                 </div>
+
+                <hr>
 
                 <p class="text-center mt-3" id="authMessage"></p>
 

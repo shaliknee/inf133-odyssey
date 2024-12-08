@@ -30,3 +30,88 @@
     margin: 0 5px;
     /* Add some spacing between items */
 }
+
+body { 
+    background: radial-gradient(circle, #98c1fb, #ffffff);
+    background-size: 300% 300%;
+	animation: gradient 13s ease infinite;
+	height: 100vh;
+    font-family: 'Arima', sans-serif;
+    background-color: var(--backhground-color);
+    padding-bottom: 10px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} 
+
+html{
+    scroll-behavior: smooth; 
+}
+
+.mt-5 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 40px; 
+    margin-bottom: 60px;
+}
+
+.btn-login {
+    background-color: #256891; 
+    color: white; /* Text color */
+    align-items: center;
+    padding: 10px 25px; /* Increase padding for a bigger button */
+    font-size: 16px; /* Increase font size for better visibility */
+    border: none; /* Remove border if you want a flat button */
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.btn-signup {
+    background-color: #256891; 
+    color: white; /* Text color */
+    align-items: center;
+    padding: 10px 25px; /* Increase padding for a bigger button */
+    font-size: 16px; /* Increase font size for better visibility */
+    border: none; /* Remove border if you want a flat button */
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+/* Change button color on hover */
+.btn-login:hover {
+    background-color: #161f23; 
+}
+
+.btn-signup:hover {
+    background-color: #161f23; 
+}
+
+.btn-primary{
+    background-color: #48aeee; 
+    color: white; 
+}
+
+.btn-secondary{
+    background-color: #59863f; 
+    color: white; 
+}
+
+.btn-secondary:hover{
+    background-color: #2f4c18;
+}
+
+.btn-submit{
+    background-color: #256891;
+    color: white;
+}
